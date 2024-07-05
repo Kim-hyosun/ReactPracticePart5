@@ -1,0 +1,27 @@
+a {
+  display: block;
+  text-decoration: none;
+  color: #222;
+}
+button {
+  border: none;
+}
+
+.main-bg {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/bg.png); /* src폴더 경로 */
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.row {
+  padding-bottom: 40px;
+}
+.cardImg img {
+  width: 100%;
+  height: 100%;
+}
+.cardContainer {
+  padding: 20px 0;
+}
